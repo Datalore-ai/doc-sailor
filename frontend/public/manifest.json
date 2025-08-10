@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "DocSailor",
+    "icons": {
+        "32": "icon32.png"
+    },
+    "version": "1.0.0",
+    "action": {
+        "default_popup": "index.html"
+    },
+    "permissions": ["scripting", "tabs"],
+    "host_permissions": [
+        "http://*/*",
+        "https://*/*"
+    ]
+}
