@@ -150,7 +150,7 @@ export default function WebDocsSailor() {
               ? `${item.content.substring(0, 200)}...`
               : item.content,
           section: `Page ${item.page}`,
-          relevanceScore: Math.max(0.5, 1 - index * 0.1), // Simulate relevance based on order
+          relevanceScore: item.similarity
         })
       );
 

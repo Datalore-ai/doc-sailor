@@ -14,6 +14,7 @@ export interface QueryResult {
   page: number;
   content: string;
   source_link: string;
+  similarity: number;
 }
 
 export async function setupDocs(request: SetupRequest, onMessage: (msg: string) => void): Promise<void> {
@@ -73,6 +74,7 @@ export async function queryDocs(request: QueryRequest): Promise<{ result: QueryR
     page: typeof item.page === "object" ? Object.values(item.page)[0] : item.page,
     content: typeof item.content === "object" ? Object.values(item.content)[0] : item.content,
     source_link: typeof item.source_link === "object" ? Object.values(item.source_link)[0] : item.source_link,
+    similarity: typeof item.similarity === "object" ? Object.values(item.similarity)[0] : item.similarity,
   }));
 
   return { result };

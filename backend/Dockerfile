@@ -1,4 +1,4 @@
-FROM python:3.11-slim
+FROM python:3.11-slim-bullseye
 
 WORKDIR /app
 
@@ -7,6 +7,7 @@ RUN pip install -r requirements.txt
 RUN pip install crawl4ai
 ENV PATH="$PATH:/root/.local/bin"
 RUN crawl4ai-setup
+RUN playwright install --with-deps
 
 COPY . .
 

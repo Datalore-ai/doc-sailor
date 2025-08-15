@@ -72,6 +72,7 @@ async def query_documentation(request: QueryRequest):
             "page": int(r.id) + 1,
             "content": r.payload["document"],
             "source_link": r.payload["source_link"],
+            "similarity": float(r.score)/100,
         }
         for r in results
     ]
