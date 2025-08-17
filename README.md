@@ -10,7 +10,7 @@
 
 ## Overview
 
-**Doc Sailor** is a browser extension built to search and explore documentation across entire sites using vector search, not just the page you are on. Enter what you need and it uses semantic understanding to scan linked pages, subpages and related resources to uncover exact matches or closely related information. Doc Sailor helps you quickly discover where the answers live, saving you from tedious manual navigation through dense content.
+**Doc Sailor** is a browser extension built to search and explore documentation across entire sites using advanced hybrid search, not just the page you are on. Enter what you need and it uses semantic understanding to scan linked pages, subpages and related resources to uncover exact matches or closely related information. Doc Sailor helps you quickly discover where the answers live, saving you from tedious manual navigation through dense content.
 
 
 
