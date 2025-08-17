@@ -2,7 +2,7 @@
     "manifest_version": 3,
     "name": "DocSailor",
     "icons": {
-        "32": "icon32.png"
+        "512": "icon512.png"
     },
     "version": "1.0.0",
     "action": {

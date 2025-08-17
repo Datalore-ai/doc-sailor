@@ -1,12 +1,8 @@
-<!-- <div align="center">
-  <img src="./assets/datalore_logo.png" alt="Datlore.ai" />
+<div align="center">
+  <img src="./assets/DocSailor.png" alt="Datlore.ai" />
 </div>
 <br/>
-<br/>
-<div align="center">
-  <img src="./assets/deep_research.gif" alt="Deep Research Demo" />
-</div> -->
-# Doc-Sailor
+<!-- # Doc-Sailor -->
 
 ## Overview
 

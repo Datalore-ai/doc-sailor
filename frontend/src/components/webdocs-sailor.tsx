@@ -20,6 +20,7 @@ import { Card, CardContent } from "@/components/ui/card";
 // import { Badge } from "@/components/ui/badge";
 import { setupDocs, queryDocs, type QueryResult } from "@/lib/api";
 import { Input } from "./ui/input";
+import logo from "@/assets/icon512.png"
 
 interface SearchResult {
   id: string;
@@ -181,8 +182,8 @@ export default function WebDocsSailor() {
       {/* Header */}
       <div className="p-4 border-b border-slate-700/50 bg-slate-800/50 backdrop-blur-sm">
         <div className="flex items-center gap-3">
-          <div className="p-2 bg-blue-600 rounded-lg">
-            <Compass className="w-5 h-5" />
+          <div className="p-2">
+            <img className="h-15 w-15" src={logo} alt="logo"/>
           </div>
           <div>
             <div className="font-bold text-4xl">DocSailor</div>
