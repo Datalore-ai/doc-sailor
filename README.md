@@ -52,8 +52,11 @@ GEMINI_API_KEY=your_gemini_api_key_here
 
 # default
 QDRANT_URL=http://qdrant:6333
-COLLECTION_NAME="knowledge_base"
-EMBEDDING_MODEL="BAAI/bge-small-en-v1.5"
+COLLECTION_NAME=knowledge_base
+EMBEDDING_MODEL=BAAI/bge-small-en-v1.5
+DENSE_EMBEDDING_MODEL=sentence-transformers/all-MiniLM-L6-v2
+BM25_EMBEDDING_MODEL=Qdrant/bm25
+LATE_INTERACTION_EMBEDDING_MODEL=colbert-ir/colbertv2.0
 ```
 
 ### 4. Start the Backend
